@@ -1,4 +1,4 @@
-var adjs = require('corpora/data/words/adjs.json').adjs,
+const adjs = require('corpora/data/words/adjs.json').adjs,
     fs = require("fs"),
     shuffle = require('knuth-shuffle').knuthShuffle,
     getWords = () => { 
@@ -27,4 +27,6 @@ var adjs = require('corpora/data/words/adjs.json').adjs,
     };
 
 
-logTitles(getTitles());
+const titles = getTitles();
+logTitles(titles);
+writeTitles(titles);
