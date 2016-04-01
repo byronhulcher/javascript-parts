@@ -1,0 +1,25 @@
+{
+  "name": "javascript-parts",
+  "version": "1.0.0",
+  "description": "another fucking twitter bot",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \":middlefinger:\" && exit 1",
+    "run": "node src/index.js"
+  },
+  "dependencies": {
+    "corpora": "https://github.com/dariusk/corpora/archive/master.tar.gz",
+    "knuth-shuffle": "1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byronhulcher/javascript-parts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byronhulcher/javascript-parts/issues"
+  },
+  "homepage": "https://github.com/byronhulcher/javascript-parts#readme"
+}
